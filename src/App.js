@@ -7,6 +7,7 @@ import Hoc from "./Components/HOC/Hoc";
 import LifecycleExample from "./Components/LifecycleExample";
 import ParentComponent from "./Components/ParentToChild";
 import ReactRouter from "./Components/ReactRouter";
+import MainSibling from "./Components/Siblings/MainSibling";
 import UncontrolledInput from "./Components/UncontrolledInput";
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
       <MyComponent />
       <h1>---React Router---</h1>
       <ReactRouter />
+      <h1>---Sibling pass---</h1>
+      <MainSibling />
     </div>
   );
 }
