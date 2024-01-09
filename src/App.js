@@ -5,6 +5,7 @@ import MyComponent from "./Components/CustomHooks";
 import Example from "./Components/Effect";
 import Hoc from "./Components/HOC/Hoc";
 import LifecycleExample from "./Components/LifecycleExample";
+import MemoExample from "./Components/MemoExample";
 import ParentComponent from "./Components/ParentToChild";
 import ReactRouter from "./Components/ReactRouter";
 import MainSibling from "./Components/Siblings/MainSibling";
@@ -30,8 +31,10 @@ function App() {
       <MyComponent />
       <h1>---React Router---</h1>
       <ReactRouter />
-      <h1>---Sibling pass---</h1>
+      <h1>---Sibling Data Pass---</h1>
       <MainSibling />
+      <h1>---useMemo---</h1>
+      <MemoExample />
     </div>
   );
 }
