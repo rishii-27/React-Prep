@@ -6,6 +6,7 @@ import Example from "./Components/Effect";
 import Hoc from "./Components/HOC/Hoc";
 import LifecycleExample from "./Components/LifecycleExample";
 import ParentComponent from "./Components/ParentToChild";
+import ReactRouter from "./Components/ReactRouter";
 import UncontrolledInput from "./Components/UncontrolledInput";
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       <LifecycleExample />
       <h1>---Custom Hooks---</h1>
       <MyComponent />
+      <h1>---React Router---</h1>
+      <ReactRouter />
     </div>
   );
 }
