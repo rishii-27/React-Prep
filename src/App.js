@@ -1,8 +1,10 @@
 import "./App.css";
 import ChildToParent from "./Components/ChildToParent";
 import ControlledInput from "./Components/ControlledInput";
+import MyComponent from "./Components/CustomHooks";
 import Example from "./Components/Effect";
 import Hoc from "./Components/HOC/Hoc";
+import LifecycleExample from "./Components/LifecycleExample";
 import ParentComponent from "./Components/ParentToChild";
 import UncontrolledInput from "./Components/UncontrolledInput";
 
@@ -20,6 +22,10 @@ function App() {
       <ChildToParent />
       <h1>---Higher Order functions---</h1>
       <Hoc />
+      <h1>---Component LifeCycle---</h1>
+      <LifecycleExample />
+      <h1>---Custom Hooks---</h1>
+      <MyComponent />
     </div>
   );
 }
